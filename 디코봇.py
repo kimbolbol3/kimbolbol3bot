@@ -1,5 +1,5 @@
 import discord
-import asyncio
+import os
 
 client = discord.Client()
 
@@ -18,8 +18,9 @@ async def on_message(message):
     if message.content.startswith('!도움말'):
         await client.send_message(message.channel, "`아직 미게발이에용!(!출석체크)좀 부탁요`")    
     if message.content.startswith('!추석날 이밴트'):
-        await client.send_message(message.channel, "`감사합니다 돈을 드릴게요.`:moneybag::moneybag::moneybag::moneybag::moneybag:`됐죠?`")    
+        await client.send_message(message.channel, "`감사합니다 돈을 드릴게요.`:moneybag::moneybag::moneybag::moneybag::moneybag:`됐죠?`")
+    
 
 
-
-client.run("NTM5Nzc1Nzg4MTY2MjgzMjY1.DzHQ6g.oFhJbVSrXaIhaBt43p6ICQE8rJM")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
