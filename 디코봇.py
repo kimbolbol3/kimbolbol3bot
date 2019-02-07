@@ -20,7 +20,7 @@ async def on_message(message):
     if message.content.startswith('!추석날 이밴트'):
         await client.send_message(message.channel, "`감사합니다 돈을 드릴게요.`:moneybag::moneybag::moneybag::moneybag::moneybag:`됐죠?`")
     if message.content.startswith('!펫 구워먹기'):
-        await client.send_message(message.channel, "맜잇는 먹빵")     
+        await client.send_message(message.channel, "진짜 있는줄 암? ㅋㅋㅋ 여윽시 초딩임 ㅋㅋㅋ")     
     
 
 
