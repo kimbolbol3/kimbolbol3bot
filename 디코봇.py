@@ -32,7 +32,7 @@ async def on_message(message):
     if message.content.startswith('!도움말'):
         await client.send_message(message.channel, "`by,adadadwsx`")       
     if message.content.startswith('!펫 구워먹기'):
-        await client.send_message(message.channel, "진짜 있는줄 암? ㅋㅋㅋ 여윽시 초딩임 ㅋㅋㅋ")  
+        await client.send_message(message.channel, "@~~ 진짜 있는줄 암? ㅋㅋㅋ 여윽시 초딩임 ㅋㅋㅋ")  
     if message.content.startswith('!도움말'):
         await client.send_message(message.channel, "`           `")   
     if message.content.startswith('!도움말'):
